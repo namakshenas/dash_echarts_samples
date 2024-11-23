@@ -1,0 +1,103 @@
+{
+    "nodes": [
+      {
+        "name": "Mean InEfficiency"
+      },
+      {
+        "name": "Input1"
+      },
+      {
+        "name": "Input2"
+      },
+      {
+        "name": "Input3"
+      },
+      {
+        "name": "Branch 1"
+      },
+      {
+        "name": "Branch 2"
+      },
+      {
+        "name": "Branch 3"
+      },
+      {
+        "name": "Branch 4"
+      },
+      {
+        "name": "Branch 5"
+      },
+      {
+        "name": "Branch 6"
+      },
+      {
+        "name": "Branch 7"
+      },
+      {
+        "name": "Branch 8"
+      },
+      {
+        "name": "Branch 9"
+      },
+      {
+        "name": "Branch 10"
+      }
+    ],
+    "links": [
+      {
+        "source": "Mean InEfficiency",
+        "target": "Input1",
+        "value": 0.3
+      },
+      {
+        "source": "Mean InEfficiency",
+        "target": "Input2",
+        "value": 0.5
+      },
+      {
+        "source": "Mean InEfficiency",
+        "target": "Input3",
+        "value": 0.2
+      },
+      {
+        "source": "Input1",
+        "target": "Branch 1",
+        "value": 0.1
+      },
+      {
+        "source": "Input1",
+        "target": "Branch 3",
+        "value": 0.9
+      },
+      {
+        "source": "Input2",
+        "target": "Branch 5",
+        "value": 0.3
+      },
+      {
+        "source": "Input2",
+        "target": "Branch 6",
+        "value": 0.2
+      },
+      {
+        "source": "Input2",
+        "target": "Branch 1",
+        "value": 0.4
+      },
+      {
+        "source": "Input2",
+        "target": "Branch 10",
+        "value": 0.1
+      },
+      {
+        "source": "Input3",
+        "target": "Branch 3",
+        "value": 0.5
+      },
+      {
+        "source": "Input3",
+        "target": "Branch 9",
+        "value": 0.5
+      }
+    ]
+  }
