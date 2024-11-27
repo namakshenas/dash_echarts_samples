@@ -1,4 +1,3 @@
-# Code belongs to yazid - https://github.com/leberber
 from dash import Dash, html, Input, Output, clientside_callback, ClientsideFunction
 import dash_mantine_components as dmc
 
